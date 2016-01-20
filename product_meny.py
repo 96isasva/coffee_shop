@@ -88,5 +88,7 @@ if choice == 3:
     update_product(data)
 
 if choice == 4:
-    data = ("Latte",)
+    data = (name,)
+    name = input(int(str("Välj namn")))
     delete_product(data)
+if choice == 5:
